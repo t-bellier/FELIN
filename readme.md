@@ -8,11 +8,20 @@ Just clone (or download the files in the master) and you are set to go
 
 ### Prerequisites
 
-Two python 3.8.8 packages are required: OpenMDAO 3.13.1 and CMA 3.1.0 
+These python 3.8.8 packages are required:
+- Jupyter Notebook
+- OpenMDAO 3.13.1
+- CMA 3.1.0 
+- geopy
+- pandas
 
 ```
+pip install notebook
 pip install openmdao
 pip install cma
+pip install pandas
+pip install geopy
+
 ```
 
 ### Tutorial
@@ -33,3 +42,7 @@ Version 0.2
 * **Loic Brevault** - *ONERA* - [mailto](mailto:loic.brevault@onera.fr)
 * **Mathieu Balesdent** - *ONERA* - [mailto](mailto:mathieu.balesdent@onera.fr)
 * **Glen Sire** - *ONERA* - [mailto](mailto:glen.sire@onera.fr)
+
+## Contributors
+
+* **Thomas Bellier** - *ISAE* - [mailto](mailto:thomas.bellier@isae-supaero.fr)
